@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">HillToPlaystore</string>
+
+    <!-- 사용된 액티비티 이름들 -->
+    <string name="title_activity_user_info">UserInfoActivity</string>
+    <string name="title_activity_prescription_scanning">PrescriptionScanningActivity</string>
+    <string name="title_activity_prescription_list">PrescriptionListActivity</string>
+    <string name="title_activity_rider_info">RiderInfoActivity</string>
+    <string name="title_activity_location">LocationActivity</string>
+
+    <!-- 메인 메뉴  -->
+    <string name="menu_title_menu1">사용자 설정</string>
+    <string name="menu_title_menu2">스캔하기</string>
+    <string name="menu_title_menu3">목록 조회</string>
+    <string name="menu_title_menu4">라이더 위치 정보 받기</string>
+    <string name="menu_title_menu5">내 위치 내보내기</string>
+
+    <!-- 로컬 스토리지 파일명, 키, 기본값 -->
+    <string name="preference_file_key">HillToPlaystoreFileKey</string>
+    <string name="preference_user_tel_key">UserTel</string>
+    <string name="preference_user_tel_value_default">01000000000</string>
+
+    <!-- 메뉴 1(사용자 설정)에 띄울 Dialog 관련 -->
+    <string name="menu1_tel">연락처</string>
+    <string name="menu1_dialog_title">연락처 저장하기</string>
+    <string name="menu1_dialog_message">\"%1$s\"로 저장 완료</string>
+    <string name="menu1_dialog_accept">확인</string>
+
+
+
+</resources>
