@@ -18,6 +18,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.hilltoplaystore.hilltoplaystore.ui.theme.HillToPlaystoreTheme
 
+// https://whispering-ellipse-ac0.notion.site/HillToAndroid-fdd863e8268c47babd5d67e0f8c3c8a9
+
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

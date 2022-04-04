@@ -3,13 +3,15 @@ plugins {
     id 'org.jetbrains.kotlin.android'
 }
 
+apply plugin: 'com.android.application'
+
 android {
     namespace 'com.hilltoplaystore.hilltoplaystore'
     compileSdk 32
 
     defaultConfig {
         applicationId "com.hilltoplaystore.hilltoplaystore"
-        minSdk 21
+        minSdk 24
         targetSdk 32
         versionCode 1
         versionName "1.0"
@@ -64,4 +66,12 @@ dependencies {
     androidTestImplementation "androidx.compose.ui:ui-test-junit4:$compose_version"
     debugImplementation "androidx.compose.ui:ui-tooling:$compose_version"
     debugImplementation "androidx.compose.ui:ui-test-manifest:$compose_version"
+
+    // Google Play Store (위치 추적)
+    implementation 'com.google.android.gms:play-services-location:19.0.1'
+
+    // Goold Play Store (맵뷰)
+    implementation "com.google.maps.android:maps-compose:1.0.0"
+    implementation "com.google.android.gms:play-services-maps:18.0.2"
+
 }

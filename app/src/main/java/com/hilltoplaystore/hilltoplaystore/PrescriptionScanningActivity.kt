@@ -12,9 +12,14 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.hilltoplaystore.hilltoplaystore.ui.theme.HillToPlaystoreTheme
 
+// TODO Text Recognition (https://developers.google.com/ml-kit/vision/text-recognition/android)
+
 class PrescriptionScanningActivity : ComponentActivity() {
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
+
+        // 화면 세팅
         setContent {
             HillToPlaystoreTheme {
                 // A surface container using the 'background' color from the theme
